@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T09:14:51.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="oqAnzpFsD0jS7lfWBhWK" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-21T09:28:30.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="FpOhKYXRzKPJBPSi6HGE" version="14.6.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1038" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -693,6 +693,91 @@
         </mxCell>
         <mxCell id="SFdsLE2ytojVS_g6Q4z1-294" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="1530" y="200" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-324" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-295" target="SFdsLE2ytojVS_g6Q4z1-297">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-295" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="361.25" y="2390" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-325" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-297" target="SFdsLE2ytojVS_g6Q4z1-298">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-297" value="调整面试官" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318.75" y="2470" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-326" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-298" target="SFdsLE2ytojVS_g6Q4z1-299">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-298" value="获取变更的面试官" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="318.75" y="2560" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-303" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-299" target="SFdsLE2ytojVS_g6Q4z1-301">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-304" value="新增" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="SFdsLE2ytojVS_g6Q4z1-303">
+          <mxGeometry x="-0.1896" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-305" value="原面试官" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-299" target="SFdsLE2ytojVS_g6Q4z1-300">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-313" value="删除" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-299" target="SFdsLE2ytojVS_g6Q4z1-302">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-299" value="面试官变更形式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="317.5" y="2660" width="117.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-321" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-300" target="SFdsLE2ytojVS_g6Q4z1-320">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-300" value="发送编辑面试通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="2760" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-309" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-301" target="SFdsLE2ytojVS_g6Q4z1-308">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-311" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-301" target="SFdsLE2ytojVS_g6Q4z1-310">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-312" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="SFdsLE2ytojVS_g6Q4z1-311">
+          <mxGeometry x="-0.1181" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-301" value="安排面试时是否发送面试邮件短信通知" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="2800" width="117.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-315" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-302" target="SFdsLE2ytojVS_g6Q4z1-314">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-302" value="发送取消面试通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="499.75" y="2770" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-317" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-308" target="SFdsLE2ytojVS_g6Q4z1-316">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-308" value="给面试官发送安排面试通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="316.25" y="2917.5" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-319" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-310" target="SFdsLE2ytojVS_g6Q4z1-318">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-310" value="不发通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="2913.5" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-314" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="542.25" y="2860" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-316" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="358.75" y="3010" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-318" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="212.5" y="3000" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-320" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="110" y="2860" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
