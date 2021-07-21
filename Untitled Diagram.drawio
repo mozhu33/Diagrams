@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T06:46:32.793Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="mL9Gmh_mlCdIqLAyCirA" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-21T06:51:02.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Nmtr0a-K7o9SOqK5v4mj" version="14.6.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1038" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -183,7 +183,12 @@
           <mxGeometry x="676.25" y="590" width="117.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SFdsLE2ytojVS_g6Q4z1-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-98" target="SFdsLE2ytojVS_g6Q4z1-106">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="621" y="780" />
+              <mxPoint x="736" y="780" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="SFdsLE2ytojVS_g6Q4z1-98" value="给面试官发通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="563.75" y="710" width="115" height="45" as="geometry" />
@@ -192,7 +197,12 @@
           <mxGeometry x="721.25" y="840" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SFdsLE2ytojVS_g6Q4z1-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-108" target="SFdsLE2ytojVS_g6Q4z1-106">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="838" y="780" />
+              <mxPoint x="736" y="780" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="SFdsLE2ytojVS_g6Q4z1-108" value="不发送通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="780" y="710" width="115" height="45" as="geometry" />
