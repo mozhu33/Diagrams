@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T07:01:54.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="3DAp1BVMKGGwmvTpeeeA" version="14.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-21T07:03:01.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Kx3VqpG8HHY8UPIv0t5g" version="14.6.6" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1038" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
@@ -216,7 +216,7 @@
         <mxCell id="SFdsLE2ytojVS_g6Q4z1-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-118" target="SFdsLE2ytojVS_g6Q4z1-122">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SFdsLE2ytojVS_g6Q4z1-118" value="非关键信息变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-118" value="非关键信息变更、&lt;br&gt;面试地点变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="97.5" y="970" width="115" height="45" as="geometry" />
         </mxCell>
         <mxCell id="SFdsLE2ytojVS_g6Q4z1-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SFdsLE2ytojVS_g6Q4z1-119" target="SFdsLE2ytojVS_g6Q4z1-120">
@@ -271,6 +271,15 @@
         </mxCell>
         <mxCell id="SFdsLE2ytojVS_g6Q4z1-137" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="372.5" y="1350" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-141" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="910" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-143" value="面试地点变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="970" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SFdsLE2ytojVS_g6Q4z1-144" value="勾选发送邮件、&lt;br&gt;短信通知" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="546.25" y="1050" width="117.5" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
