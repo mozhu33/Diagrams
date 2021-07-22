@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T08:42:30.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="G3TY4SEzjq4pfOpV28vK" version="14.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T09:11:37.249Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="gGnr9AQ2HjYv0LNAdDyd" version="14.9.1" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1038" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
@@ -774,20 +774,56 @@
         <mxCell id="SFdsLE2ytojVS_g6Q4z1-320" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="110" y="2860" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U0ymZwaYGCfwbB4ao4K9-6" value="用户操作" style="swimlane;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="936.75" y="2560" width="223.25" height="610" as="geometry" />
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-6" value="HR" style="swimlane;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="936.75" y="2560" width="193.25" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-13" value="批量发通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-6">
+          <mxGeometry x="43.25" y="90" width="115" height="45" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-7" value="InterviewMR" style="swimlane;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="2560" width="223.25" height="610" as="geometry" />
+          <mxGeometry x="1130" y="2560" width="200" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-18" value="校验参数是否合法&lt;br&gt;（短信余额等足够）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-7">
+          <mxGeometry x="41.25" y="77.5" width="117.5" height="70" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-8" value="InterviewESB" style="swimlane;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="1383.25" y="2560" width="223.25" height="610" as="geometry" />
+          <mxGeometry x="1330" y="2560" width="210" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-15" value="过滤掉已完成、已取消的面试安排" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-8">
+          <mxGeometry x="47.5" y="80" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-16" value="邀请更新简历&lt;br&gt;用户级记忆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-8">
+          <mxGeometry x="47.5" y="160" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-17" value="记录面试批量操作&lt;br&gt;BatchOperateRecord" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-8">
+          <mxGeometry x="47.5" y="230" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-19" value="发送kafka消息&lt;br&gt;RecordId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-8">
+          <mxGeometry x="47.5" y="300" width="115" height="45" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-9" value="InterviewChangeStatusConsumer&#xa;面试批量操作异步消费端" style="swimlane;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="1606.5" y="2560" width="223.25" height="610" as="geometry" />
+          <mxGeometry x="1540" y="2560" width="220" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-20" value="解析消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-9">
+          <mxGeometry x="50" y="80" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-21" value="通过RecordId获取&lt;br&gt;所需数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-9">
+          <mxGeometry x="50" y="150" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-22" value="根据场景&lt;br&gt;分发kafka消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-9">
+          <mxGeometry x="52.5" y="300" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-23" value="保存发消息记录&lt;br&gt;InterviewBatchOperate&lt;br&gt;SendMessageRecord" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-9">
+          <mxGeometry x="50" y="225" width="115" height="45" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-11" value="InterviewNoticeConsumer&#xa;面试通知异步消费端" style="swimlane;startSize=50;" vertex="1" parent="1">
-          <mxGeometry x="1829.75" y="2560" width="223.25" height="610" as="geometry" />
+          <mxGeometry x="1760" y="2560" width="230" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-24" value="解析消息内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-11">
+          <mxGeometry x="62.5" y="80" width="115" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-25" value="给相应人员发送邮件、短信、italent通知、待办等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-11">
+          <mxGeometry x="63.75" y="155" width="115" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
