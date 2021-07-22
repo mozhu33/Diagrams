@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T09:14:31.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="-uy_ft0ShazuTE89FzTP" version="14.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T09:16:22.792Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="HZnRkrEA_7Qa9HOhgIng" version="14.9.1" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1038" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
@@ -805,16 +805,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-16" value="邀请更新简历&lt;br&gt;用户级记忆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-8">
-          <mxGeometry x="47.5" y="160" width="115" height="45" as="geometry" />
+          <mxGeometry x="47.5" y="170" width="115" height="45" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U0ymZwaYGCfwbB4ao4K9-8" source="U0ymZwaYGCfwbB4ao4K9-17" target="U0ymZwaYGCfwbB4ao4K9-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-17" value="记录面试批量操作&lt;br&gt;BatchOperateRecord" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-8">
-          <mxGeometry x="47.5" y="230" width="115" height="45" as="geometry" />
+          <mxGeometry x="47.5" y="282.5" width="115" height="45" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-19" value="发送kafka消息&lt;br&gt;RecordId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-8">
-          <mxGeometry x="47.5" y="310" width="115" height="45" as="geometry" />
+          <mxGeometry x="47.5" y="390" width="115" height="45" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-9" value="InterviewChangeStatusConsumer&#xa;面试批量操作异步消费端" style="swimlane;startSize=50;" vertex="1" parent="1">
           <mxGeometry x="1540" y="2560" width="220" height="610" as="geometry" />
@@ -829,16 +829,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-21" value="通过RecordId获取&lt;br&gt;所需数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-9">
-          <mxGeometry x="50" y="150" width="115" height="45" as="geometry" />
+          <mxGeometry x="50" y="170" width="115" height="45" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-22" value="根据场景&lt;br&gt;分发kafka消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-9">
-          <mxGeometry x="50" y="310" width="115" height="45" as="geometry" />
+          <mxGeometry x="50" y="395" width="115" height="45" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="U0ymZwaYGCfwbB4ao4K9-9" source="U0ymZwaYGCfwbB4ao4K9-23" target="U0ymZwaYGCfwbB4ao4K9-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-23" value="保存发消息记录&lt;br&gt;InterviewBatchOperate&lt;br&gt;SendMessageRecord" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-9">
-          <mxGeometry x="50" y="230" width="115" height="45" as="geometry" />
+          <mxGeometry x="50" y="280" width="115" height="45" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-11" value="InterviewNoticeConsumer&#xa;面试通知异步消费端" style="swimlane;startSize=50;" vertex="1" parent="1">
           <mxGeometry x="1760" y="2560" width="230" height="610" as="geometry" />
@@ -853,10 +853,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-25" value="给相应人员发送邮件、短信、italent通知、待办等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-11">
-          <mxGeometry x="62.5" y="155" width="115" height="45" as="geometry" />
+          <mxGeometry x="62.5" y="180" width="115" height="45" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-44" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="U0ymZwaYGCfwbB4ao4K9-11">
-          <mxGeometry x="105" y="260" width="30" height="30" as="geometry" />
+          <mxGeometry x="105" y="280" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="U0ymZwaYGCfwbB4ao4K9-13" target="U0ymZwaYGCfwbB4ao4K9-18">
           <mxGeometry relative="1" as="geometry" />
@@ -867,7 +867,7 @@
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0ymZwaYGCfwbB4ao4K9-19" target="U0ymZwaYGCfwbB4ao4K9-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1530" y="2893" />
+              <mxPoint x="1530" y="2970" />
               <mxPoint x="1530" y="2663" />
             </Array>
           </mxGeometry>
@@ -875,7 +875,7 @@
         <mxCell id="U0ymZwaYGCfwbB4ao4K9-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U0ymZwaYGCfwbB4ao4K9-22" target="U0ymZwaYGCfwbB4ao4K9-24">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1740" y="2893" />
+              <mxPoint x="1740" y="2978" />
               <mxPoint x="1740" y="2663" />
             </Array>
           </mxGeometry>
