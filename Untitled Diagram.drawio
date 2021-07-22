@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T08:40:09.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="5zRS9ZQxer_IlgUaxkRX" version="14.9.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T08:42:30.568Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="G3TY4SEzjq4pfOpV28vK" version="14.9.1" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1038" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
       <root>
@@ -774,14 +774,20 @@
         <mxCell id="SFdsLE2ytojVS_g6Q4z1-320" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="110" y="2860" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U0ymZwaYGCfwbB4ao4K9-6" value="用户操作" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-6" value="用户操作" style="swimlane;startSize=50;" vertex="1" parent="1">
           <mxGeometry x="936.75" y="2560" width="223.25" height="610" as="geometry" />
         </mxCell>
-        <mxCell id="U0ymZwaYGCfwbB4ao4K9-7" value="InterviewMR" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-7" value="InterviewMR" style="swimlane;startSize=50;" vertex="1" parent="1">
           <mxGeometry x="1160" y="2560" width="223.25" height="610" as="geometry" />
         </mxCell>
-        <mxCell id="U0ymZwaYGCfwbB4ao4K9-8" value="InterviewESB" style="swimlane;" vertex="1" parent="1">
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-8" value="InterviewESB" style="swimlane;startSize=50;" vertex="1" parent="1">
           <mxGeometry x="1383.25" y="2560" width="223.25" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-9" value="InterviewChangeStatusConsumer&#xa;面试批量操作异步消费端" style="swimlane;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1606.5" y="2560" width="223.25" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="U0ymZwaYGCfwbB4ao4K9-11" value="InterviewNoticeConsumer&#xa;面试通知异步消费端" style="swimlane;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="1829.75" y="2560" width="223.25" height="610" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
