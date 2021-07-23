@@ -1,1 +1,89 @@
-<mxfile host="app.diagrams.net" modified="2021-07-23T11:36:48.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" version="14.9.1" etag="KldHN-qxWQX51mFxBRyb" type="github"><diagram id="5G-bmRh_N2t1Zami67Rp">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-23T12:12:20.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="7mvb7I1D9VxpwYs_gRGC" version="14.9.1" type="github">
+  <diagram id="5G-bmRh_N2t1Zami67Rp" name="Page-1">
+    <mxGraphModel dx="1038" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-1" value="面试" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="590" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZsuxNmK-HCY5FNLr-s3j-2" target="ZsuxNmK-HCY5FNLr-s3j-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-5" value="1：n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZsuxNmK-HCY5FNLr-s3j-4">
+          <mxGeometry x="0.1829" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-11" value="n：n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZsuxNmK-HCY5FNLr-s3j-2" target="ZsuxNmK-HCY5FNLr-s3j-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZsuxNmK-HCY5FNLr-s3j-2" target="ZsuxNmK-HCY5FNLr-s3j-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="875" y="570" />
+              <mxPoint x="1385" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-18" value="1：n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZsuxNmK-HCY5FNLr-s3j-17">
+          <mxGeometry x="0.1951" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-19" value="1：n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZsuxNmK-HCY5FNLr-s3j-2" target="ZsuxNmK-HCY5FNLr-s3j-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-2" value="面试安排" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="590" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZsuxNmK-HCY5FNLr-s3j-3" target="ZsuxNmK-HCY5FNLr-s3j-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-7" value="1：n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZsuxNmK-HCY5FNLr-s3j-6">
+          <mxGeometry x="0.1388" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-15" value="1：n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZsuxNmK-HCY5FNLr-s3j-3" target="ZsuxNmK-HCY5FNLr-s3j-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-3" value="面试日程" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="590" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-10" value="1：n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZsuxNmK-HCY5FNLr-s3j-8" target="ZsuxNmK-HCY5FNLr-s3j-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-8" value="面试批量操作记录" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="740" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-9" value="面试批量操作&lt;br&gt;发消息记录" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="740" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-12" value="面试官答复" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="450" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-16" value="面试评价" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="590" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZsuxNmK-HCY5FNLr-s3j-20" target="ZsuxNmK-HCY5FNLr-s3j-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-22" value="1：n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZsuxNmK-HCY5FNLr-s3j-21">
+          <mxGeometry x="-0.1667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-20" value="面试评价表" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="450" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-24" value="n:n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZsuxNmK-HCY5FNLr-s3j-23" target="ZsuxNmK-HCY5FNLr-s3j-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsuxNmK-HCY5FNLr-s3j-23" value="申请" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="450" width="110" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
