@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-26T10:32:25.758Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="Lf4QSeY7UkniZnBZw63p" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-26T10:40:08.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="LK-NMVycYAjnl_jWctri" version="14.9.2" type="github">
   <diagram id="5G-bmRh_N2t1Zami67Rp" name="Page-1">
     <mxGraphModel dx="1038" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -86,11 +86,29 @@
         <mxCell id="DtQJNL-mFVfb556mWFiH-1" value="HR" style="swimlane;startSize=50;" vertex="1" parent="1">
           <mxGeometry x="70" y="640" width="230" height="540" as="geometry" />
         </mxCell>
+        <mxCell id="DtQJNL-mFVfb556mWFiH-6" value="编辑面试基本信息" style="html=1;" vertex="1" parent="DtQJNL-mFVfb556mWFiH-1">
+          <mxGeometry x="50" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
         <mxCell id="DtQJNL-mFVfb556mWFiH-2" value="前端" style="swimlane;startSize=50;" vertex="1" parent="1">
           <mxGeometry x="300" y="640" width="230" height="540" as="geometry" />
         </mxCell>
+        <mxCell id="DtQJNL-mFVfb556mWFiH-8" value="时间有效性&lt;br&gt;及冲突校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="DtQJNL-mFVfb556mWFiH-2">
+          <mxGeometry x="65" y="75" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DtQJNL-mFVfb556mWFiH-9" value="其他校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="DtQJNL-mFVfb556mWFiH-2">
+          <mxGeometry x="65" y="170" width="100" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="DtQJNL-mFVfb556mWFiH-3" value="面试服务" style="swimlane;startSize=50;" vertex="1" parent="1">
           <mxGeometry x="530" y="640" width="230" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="DtQJNL-mFVfb556mWFiH-10" value="校验&lt;br&gt;面试安排状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="DtQJNL-mFVfb556mWFiH-3">
+          <mxGeometry x="65" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DtQJNL-mFVfb556mWFiH-11" value="校验面试状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="DtQJNL-mFVfb556mWFiH-3">
+          <mxGeometry x="65" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DtQJNL-mFVfb556mWFiH-12" value="校验&lt;br&gt;面试评价状态" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="DtQJNL-mFVfb556mWFiH-3">
+          <mxGeometry x="65" y="250" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DtQJNL-mFVfb556mWFiH-4" value="安排面试消费端" style="swimlane;startSize=50;" vertex="1" parent="1">
           <mxGeometry x="760" y="640" width="230" height="540" as="geometry" />
