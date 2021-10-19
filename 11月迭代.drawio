@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T02:25:25.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" version="14.9.2" etag="g1YEUFVjNCSQQgv1Q5-0" type="github"><diagram id="w2w5WlWFNU-Cj_tQeQIJ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-19T02:33:38.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="bLBcr4JpHLXJmCRIEB5_" version="14.9.2" type="github">
+  <diagram id="w2w5WlWFNU-Cj_tQeQIJ" name="Page-1">
+    <mxGraphModel dx="1038" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JQRKnKj6wCPkjo8HGhtL-1" value="浏览器" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JQRKnKj6wCPkjo8HGhtL-2" value="RecruitV6InterviewMR&lt;br&gt;面试MR" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="180" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JQRKnKj6wCPkjo8HGhtL-3" value="kafka" style="shape=tapeData;whiteSpace=wrap;html=1;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JQRKnKj6wCPkjo8HGhtL-4" value="RecruitV6InterviewExportConsumer&lt;br&gt;面试导入消费端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="287.5" y="440" width="225" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JQRKnKj6wCPkjo8HGhtL-5" value="RecruitV6Interview&lt;br&gt;面试ESB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="570" width="170" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
