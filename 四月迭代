@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-02-28T10:59:27.602Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="763XTsXJMwOLD0Kk3rsH" version="15.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-28T11:00:32.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="ARoZxMqG-tqkhWCWPFhX" version="15.9.6" type="github">
   <diagram id="7g6XYoQiXHxEtSLRUfa9" name="Page-1">
     <mxGraphModel dx="1038" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="300000" pageHeight="30000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="-gNS_V1-g68pvbWhLQmU-1" value="面试MR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-gNS_V1-g68pvbWhLQmU-1" value="InterviewMR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-gNS_V1-g68pvbWhLQmU-2" value="面试ESB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-gNS_V1-g68pvbWhLQmU-2" value="InterviewESB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-gNS_V1-g68pvbWhLQmU-3" value="InterviewNotice&lt;br&gt;ConsumerESB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-gNS_V1-g68pvbWhLQmU-3" value="InterviewNotice&lt;br&gt;Consumer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-gNS_V1-g68pvbWhLQmU-4" value="应聘者MR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
