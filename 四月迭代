@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-01T02:52:30.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="polvCJfXuh3LsFVD6zgM" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-01T03:10:06.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="P6K73FY-fT1_Cy-6aKO9" version="16.6.4" type="github">
   <diagram id="7g6XYoQiXHxEtSLRUfa9" name="Page-1">
     <mxGraphModel dx="301038" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="300000" pageHeight="30000" math="0" shadow="0">
       <root>
@@ -210,11 +210,23 @@
         <mxCell id="T_DNmx6kpbPbbdniXnmb-9" value="保存筛选结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-298600" y="405" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T_DNmx6kpbPbbdniXnmb-18" target="T_DNmx6kpbPbbdniXnmb-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T_DNmx6kpbPbbdniXnmb-18" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-298910" y="565" width="80" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T_DNmx6kpbPbbdniXnmb-19" target="T_DNmx6kpbPbbdniXnmb-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T_DNmx6kpbPbbdniXnmb-19" value="提交面试评价" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-298780" y="565" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-30" value="首次" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T_DNmx6kpbPbbdniXnmb-20" target="T_DNmx6kpbPbbdniXnmb-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T_DNmx6kpbPbbdniXnmb-20" target="T_DNmx6kpbPbbdniXnmb-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T_DNmx6kpbPbbdniXnmb-20" value="首次评价" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-298620" y="550" width="80" height="70" as="geometry" />
@@ -222,20 +234,56 @@
         <mxCell id="T_DNmx6kpbPbbdniXnmb-21" value="现有保存逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-298480" y="565" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T_DNmx6kpbPbbdniXnmb-22" target="T_DNmx6kpbPbbdniXnmb-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T_DNmx6kpbPbbdniXnmb-22" value="保存变更内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-298480" y="690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-32" value="变更" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T_DNmx6kpbPbbdniXnmb-23" target="T_DNmx6kpbPbbdniXnmb-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T_DNmx6kpbPbbdniXnmb-23" value="评价内容&lt;br&gt;是否变更" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-298620" y="675" width="80" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T_DNmx6kpbPbbdniXnmb-24" target="T_DNmx6kpbPbbdniXnmb-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="T_DNmx6kpbPbbdniXnmb-24" value="写操作记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-298330" y="690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T_DNmx6kpbPbbdniXnmb-25" target="T_DNmx6kpbPbbdniXnmb-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T_DNmx6kpbPbbdniXnmb-25" value="保存面试评价&lt;br&gt;修改记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-298180" y="690" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T_DNmx6kpbPbbdniXnmb-26" value="根据消息模板&lt;br&gt;给HR发通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-298030" y="690" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-36" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-298930" y="935" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-37" value="获取评价&lt;br&gt;变更内容" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-298790" y="935" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-38" value="评价结果变更" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-298620" y="830" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-39" value="EvaluatiaonConclusion:{结果}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-298470" y="830" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-40" value="其他--&amp;gt;快速淘汰" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-298620" y="910" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-41" value="修改项：&lt;br&gt;EvaluatiaonConclusion:快速淘汰" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-298470" y="910" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-42" value="快速淘汰--&amp;gt;其他" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-298620" y="995" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_DNmx6kpbPbbdniXnmb-43" value="修改项：&lt;br&gt;EvaluatiaonConclusion:其他&lt;br&gt;……" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-298470" y="990" width="200" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
