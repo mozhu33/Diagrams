@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T08:15:43.991Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="Kkq5o2nN5rjmsCTyLnSF" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-19T11:28:02.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="7EiUaGV2z8gWK5M8yIuI" version="17.4.5" type="github">
   <diagram id="0LAJnjRN8uaiDKhzAC2x" name="Page-1">
     <mxGraphModel dx="1038" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="300000" pageHeight="30000" math="0" shadow="0">
       <root>
@@ -39,16 +39,16 @@
         <mxCell id="yOBWlnK-e6VTriVFLW_p-15" value="客开" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="340" y="400" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yOBWlnK-e6VTriVFLW_p-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yOBWlnK-e6VTriVFLW_p-18" target="yOBWlnK-e6VTriVFLW_p-19" edge="1">
+        <mxCell id="yOBWlnK-e6VTriVFLW_p-22" value="1：n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yOBWlnK-e6VTriVFLW_p-18" target="yOBWlnK-e6VTriVFLW_p-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yOBWlnK-e6VTriVFLW_p-18" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;面试安排&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;ArrangementId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;……&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="670" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yOBWlnK-e6VTriVFLW_p-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yOBWlnK-e6VTriVFLW_p-19" target="yOBWlnK-e6VTriVFLW_p-20" edge="1">
+        <mxCell id="yOBWlnK-e6VTriVFLW_p-23" value="1：n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yOBWlnK-e6VTriVFLW_p-19" target="yOBWlnK-e6VTriVFLW_p-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yOBWlnK-e6VTriVFLW_p-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yOBWlnK-e6VTriVFLW_p-19" target="yOBWlnK-e6VTriVFLW_p-21" edge="1">
+        <mxCell id="yOBWlnK-e6VTriVFLW_p-24" value="1:1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yOBWlnK-e6VTriVFLW_p-19" target="yOBWlnK-e6VTriVFLW_p-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yOBWlnK-e6VTriVFLW_p-19" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;面试日程&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;ScheduleId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;ArrangementId&lt;br&gt;VideoRoomId&lt;br&gt;……&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
@@ -58,7 +58,7 @@
           <mxGeometry x="740" y="670" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yOBWlnK-e6VTriVFLW_p-21" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;视频面试会议&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;VideoMeetingId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;VideoRoomUrl&lt;br&gt;VideoRoomCode&lt;br&gt;VideoRoomPassword&lt;br&gt;……&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
-          <mxGeometry x="460" y="840" width="180" height="90" as="geometry" />
+          <mxGeometry x="460" y="860" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yOBWlnK-e6VTriVFLW_p-25" value="安排/编辑视频面试&lt;br&gt;自定义" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yOBWlnK-e6VTriVFLW_p-26" target="yOBWlnK-e6VTriVFLW_p-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -90,6 +90,11 @@
         <mxCell id="yOBWlnK-e6VTriVFLW_p-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="yOBWlnK-e6VTriVFLW_p-36" target="yOBWlnK-e6VTriVFLW_p-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-62" value="1：n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yOBWlnK-e6VTriVFLW_p-35">
+          <mxGeometry x="-0.212" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="L0MEZrE-DLsut9pZWQ_O-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;" parent="1" source="yOBWlnK-e6VTriVFLW_p-36" target="L0MEZrE-DLsut9pZWQ_O-75" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -97,16 +102,26 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-63" value="1：n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L0MEZrE-DLsut9pZWQ_O-76">
+          <mxGeometry x="-0.5024" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yOBWlnK-e6VTriVFLW_p-36" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;面试安排&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;ArrangementId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;……&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="1550" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="yOBWlnK-e6VTriVFLW_p-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yOBWlnK-e6VTriVFLW_p-39" target="yOBWlnK-e6VTriVFLW_p-40" edge="1">
+        <mxCell id="yOBWlnK-e6VTriVFLW_p-37" value="1：n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yOBWlnK-e6VTriVFLW_p-39" target="yOBWlnK-e6VTriVFLW_p-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="1595" />
+              <mxPoint x="630" y="1595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOBWlnK-e6VTriVFLW_p-38" value="1：1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yOBWlnK-e6VTriVFLW_p-39" target="yOBWlnK-e6VTriVFLW_p-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yOBWlnK-e6VTriVFLW_p-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="yOBWlnK-e6VTriVFLW_p-39" target="yOBWlnK-e6VTriVFLW_p-41" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="L0MEZrE-DLsut9pZWQ_O-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;" parent="1" source="yOBWlnK-e6VTriVFLW_p-39" target="L0MEZrE-DLsut9pZWQ_O-75" edge="1">
+        <mxCell id="L0MEZrE-DLsut9pZWQ_O-77" value="1：n&lt;br&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;labelBackgroundColor=#FFFFFF;" parent="1" source="yOBWlnK-e6VTriVFLW_p-39" target="L0MEZrE-DLsut9pZWQ_O-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yOBWlnK-e6VTriVFLW_p-39" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;面试日程&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;ScheduleId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;ArrangementId&lt;br&gt;VideoRoomId&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;MeetingRecordScreenUrl&lt;/font&gt;&lt;br&gt;……&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -121,6 +136,11 @@
               <mxPoint x="900" y="1765" />
               <mxPoint x="900" y="1420" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-64" value="1：n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="L0MEZrE-DLsut9pZWQ_O-78">
+          <mxGeometry x="-0.0599" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="yOBWlnK-e6VTriVFLW_p-41" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;视频面试会议&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;VideoMeetingId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;VideoRoomUrl&lt;br&gt;VideoRoomCode&lt;br&gt;VideoRoomPassword&lt;br&gt;……&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" parent="1" vertex="1">
@@ -694,19 +714,120 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qomqAFSf7AB_BySmps6i-17" value="调腾讯会议接口&lt;br&gt;获取录屏文件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="980" y="3500" width="100" height="40" as="geometry" />
+          <mxGeometry x="980" y="3490" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qomqAFSf7AB_BySmps6i-18" value="录屏文件地址&lt;br&gt;写回日程" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="980" y="3575" width="100" height="40" as="geometry" />
+          <mxGeometry x="980" y="3565" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qomqAFSf7AB_BySmps6i-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qomqAFSf7AB_BySmps6i-18" target="qomqAFSf7AB_BySmps6i-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qomqAFSf7AB_BySmps6i-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomqAFSf7AB_BySmps6i-27" target="qomqAFSf7AB_BySmps6i-17">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="qomqAFSf7AB_BySmps6i-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="qomqAFSf7AB_BySmps6i-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="3440" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="qomqAFSf7AB_BySmps6i-27" value="取腾讯会议Id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="980" y="3410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomqAFSf7AB_BySmps6i-32" target="qomqAFSf7AB_BySmps6i-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-32" value="授权主持人" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="3170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomqAFSf7AB_BySmps6i-33" target="qomqAFSf7AB_BySmps6i-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-33" value="腾讯会议后台&lt;br&gt;添加消息通知&lt;br&gt;事件：用户入会" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="3250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomqAFSf7AB_BySmps6i-34" target="qomqAFSf7AB_BySmps6i-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-34" value="用户入会后腾讯&lt;br&gt;回调相应接口" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="3350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomqAFSf7AB_BySmps6i-35" target="qomqAFSf7AB_BySmps6i-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-35" value="获取到用户信息&lt;br&gt;openId、uuId、meetingId" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="3430" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-37" value="设置联席主持人&lt;br&gt;腾讯会议接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="3525" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-42" value="腾讯会议后台&lt;br&gt;添加消息通知&lt;br&gt;事件：用户入会" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="3250" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-53" value="1：n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomqAFSf7AB_BySmps6i-43" target="qomqAFSf7AB_BySmps6i-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-56" value="1：n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="qomqAFSf7AB_BySmps6i-43" target="qomqAFSf7AB_BySmps6i-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="1270" />
+              <mxPoint x="1840" y="1565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-43" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;面试安排&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;color: rgb(80 , 80 , 80) ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;simsun&amp;#34; ; background-color: rgb(255 , 255 , 255)&quot;&gt;ArrangementId&lt;/span&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;Status -状态&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="1220" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-58" value="1：n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomqAFSf7AB_BySmps6i-44" target="qomqAFSf7AB_BySmps6i-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-44" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;个人信息&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&lt;font color=&quot;#505050&quot; face=&quot;arial, simsun&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;ApplicantId&lt;/span&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;span style=&quot;color: rgb(80 , 80 , 80) ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;simsun&amp;#34; ; background-color: rgb(243 , 243 , 243)&quot;&gt;IsBlack&lt;br&gt;&lt;/span&gt;StdIsDeleted&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1905" y="1200" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qomqAFSf7AB_BySmps6i-45" target="qomqAFSf7AB_BySmps6i-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="1160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2140" y="1460" />
+              <mxPoint x="2140" y="1150" />
+              <mxPoint x="1380" y="1150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-61" value="1：n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qomqAFSf7AB_BySmps6i-60">
+          <mxGeometry x="0.0295" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-45" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;申请&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;&lt;font color=&quot;#505050&quot; face=&quot;arial, simsun&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;ApplyId&lt;/span&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;ApplicantId&lt;br&gt;StdIsDeleted&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1905" y="1410" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-52" value="1：n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomqAFSf7AB_BySmps6i-47" target="qomqAFSf7AB_BySmps6i-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-54" value="1：n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomqAFSf7AB_BySmps6i-47" target="qomqAFSf7AB_BySmps6i-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-47" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;面试日程&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;ScheduleId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;ArrangementId&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="1390" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qomqAFSf7AB_BySmps6i-48" target="qomqAFSf7AB_BySmps6i-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-59" value="1:1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qomqAFSf7AB_BySmps6i-49">
+          <mxGeometry x="-0.3447" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.389;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qomqAFSf7AB_BySmps6i-48" target="qomqAFSf7AB_BySmps6i-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-57" value="1：n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qomqAFSf7AB_BySmps6i-51">
+          <mxGeometry x="-0.5501" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-48" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;面试&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;InterviewId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;ArrangementId&lt;br&gt;ScheduleId&lt;br&gt;ApplyId&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="1540" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qomqAFSf7AB_BySmps6i-50" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;面试评价&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;EvaluationId&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;ScheduleId&lt;br&gt;InterviewId&lt;br&gt;ApplyId&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1390" width="180" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
