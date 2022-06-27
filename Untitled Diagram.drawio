@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-27T08:57:22.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="_RECnCKUCwt6-mj1AuDn" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-27T11:30:31.397Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="Okg2_bSfz0MIBK3eyPUL" version="17.4.5" type="github">
   <diagram id="_McsPf8jb2U088-XCoP_" name="Page-1">
     <mxGraphModel dx="1038" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="300000" pageHeight="30000" math="0" shadow="0">
       <root>
@@ -53,6 +53,126 @@
         </mxCell>
         <mxCell id="AKutZcXzC_K11kxw9h79-4" value="&lt;div style=&quot;box-sizing: border-box ; width: 100% ; background: #e4e4e4 ; padding: 2px&quot;&gt;应聘者预约面试关联关系&lt;/div&gt;&lt;table style=&quot;width: 100% ; font-size: 1em&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;关联关系Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;场次Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;面试间Id&lt;br&gt;日程Id&lt;br&gt;申请Id&lt;br&gt;职位Id&lt;br&gt;……&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="380" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-14" target="AKutZcXzC_K11kxw9h79-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-14" value="安排预约面试" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="860" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-27" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-15" target="AKutZcXzC_K11kxw9h79-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-28" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-15" target="AKutZcXzC_K11kxw9h79-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-15" value="添加到&lt;br&gt;已有场次" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="840" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-16" value="现有预约面试接口&lt;br&gt;用户级记忆" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="855" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-18" target="AKutZcXzC_K11kxw9h79-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-18" value="新建预约场次&lt;br&gt;填写场次各项信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="970" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-19" target="AKutZcXzC_K11kxw9h79-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-19" value="设置面试信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="970" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-20" target="AKutZcXzC_K11kxw9h79-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-20" value="新建面试间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="970" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-21" target="AKutZcXzC_K11kxw9h79-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-21" value="应聘者预约通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="970" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-33" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-22" target="AKutZcXzC_K11kxw9h79-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-34" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-22" target="AKutZcXzC_K11kxw9h79-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-22" value="是否为&lt;br&gt;手动确认" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-23" value="保存相应对象信息、发送应聘者预约通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-24" target="AKutZcXzC_K11kxw9h79-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-24" value="设置自动确认时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1095" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-25" value="定时生成安排及给应聘者面试官发送安排通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1095" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-36" target="AKutZcXzC_K11kxw9h79-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-36" value="新建面试间" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1410" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-37" target="AKutZcXzC_K11kxw9h79-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-37" value="设置可预约时段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1405" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-38" value="根据计算规则生成面试小组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1405" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-40" target="AKutZcXzC_K11kxw9h79-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-40" value="设置每组人数、面试时长、每组间隔等信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="1405" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-42" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;计算规则：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;（可预约时段结束时间-可预约时段开始时间+每组间隔*1）/（面试时长+每组间隔）&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;每段可预约时段可用时间的可面试小组数取整后相加-手动禁用组数&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1310" width="450" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-46" target="AKutZcXzC_K11kxw9h79-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-46" value="应聘者职位校验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1570" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-47" target="AKutZcXzC_K11kxw9h79-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-47" value="场次下的各日期内新建面试间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1565" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-53" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-48" target="AKutZcXzC_K11kxw9h79-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-48" target="AKutZcXzC_K11kxw9h79-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-48" value="当前场次所有日期下面点时间均勾选指定职位" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="AKutZcXzC_K11kxw9h79-49" target="AKutZcXzC_K11kxw9h79-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-49" value="存在应聘者职位不匹配" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-50" value="给出应聘者职位&lt;br&gt;不匹配名单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="1565" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AKutZcXzC_K11kxw9h79-54" value="无需校验，&lt;br&gt;直接下一步" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1670" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
