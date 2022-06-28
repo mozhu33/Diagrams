@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T03:39:18.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="n834EkAS7Qx5xiW_treS" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-28T06:20:30.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="C-sC-p62LdLamcXKhs65" version="20.0.3" type="github">
   <diagram id="_McsPf8jb2U088-XCoP_" name="Page-1">
     <mxGraphModel dx="1038" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="300000" pageHeight="30000" math="0" shadow="0">
       <root>
@@ -173,6 +173,96 @@
         </mxCell>
         <mxCell id="AKutZcXzC_K11kxw9h79-54" value="无需校验，&lt;br&gt;直接下一步" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="410" y="1670" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-1" target="NbpE_9AWWfiQ8LceVUcb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-1" value="生成RedisKey" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1800" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-3" target="NbpE_9AWWfiQ8LceVUcb-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-3" value="提交安排预约面试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1795" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-4" target="NbpE_9AWWfiQ8LceVUcb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-4" value="保存数据&lt;br&gt;场次/面试间/应聘者关联关系等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1795" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-15" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-5" target="NbpE_9AWWfiQ8LceVUcb-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-5" value="预约确认方式&lt;br&gt;自动确认" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1780" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-6" target="NbpE_9AWWfiQ8LceVUcb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-6" value="预约日期/提醒时间生成RedisKey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1795" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-9" value="RedisKey：{预约日期-前N天} {提醒时间}" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="1740" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-10" target="NbpE_9AWWfiQ8LceVUcb-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-10" value="场次Id/预约日期&lt;br&gt;生成ValueList" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1910" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-11" value="ValueList：{SessionId} {预约日期1}&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{SessionId} {预约日期2}" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="835" y="1910" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-19" target="NbpE_9AWWfiQ8LceVUcb-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-19" value="获取Redis数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2050" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-20" target="NbpE_9AWWfiQ8LceVUcb-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-20" value="执行定时任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2045" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-21" target="NbpE_9AWWfiQ8LceVUcb-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-21" value="当前执行时间&lt;br&gt;生成ReidsKey" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="2045" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-22" value="RedisKey：{当前日期} {当前时间整点}" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1990" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-23" target="NbpE_9AWWfiQ8LceVUcb-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-23" value="根据key取值&lt;br&gt;List数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="2045" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-24" value="{SessionId} {预约日期1}&lt;br&gt;{SessionId} {预约日期2}&lt;br&gt;……" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="557.5" y="2120" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-25" target="NbpE_9AWWfiQ8LceVUcb-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-25" value="根据SessionId/预约日期取值相应数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="2045" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-27" target="NbpE_9AWWfiQ8LceVUcb-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-27" value="生成安排&lt;br&gt;发通知" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2045" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-28" value="根据RedisKey&lt;br&gt;删除已处理数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="2150" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-29" value="设置失效日期30天&lt;br&gt;存储Redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1910" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
