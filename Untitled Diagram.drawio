@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-28T06:20:30.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="C-sC-p62LdLamcXKhs65" version="20.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-28T13:47:27.740Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="MjwscchNkUid0CwI1Ogj" version="20.0.3" type="github">
   <diagram id="_McsPf8jb2U088-XCoP_" name="Page-1">
     <mxGraphModel dx="1038" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="300000" pageHeight="30000" math="0" shadow="0">
       <root>
@@ -263,6 +263,186 @@
         </mxCell>
         <mxCell id="NbpE_9AWWfiQ8LceVUcb-29" value="设置失效日期30天&lt;br&gt;存储Redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="1910" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-37" target="NbpE_9AWWfiQ8LceVUcb-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-37" value="提交预约面试" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-49" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-38" target="NbpE_9AWWfiQ8LceVUcb-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-50" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-38" target="NbpE_9AWWfiQ8LceVUcb-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-38" value="提醒时间校验&lt;br&gt;早于可预约&lt;br&gt;时间" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-39" target="NbpE_9AWWfiQ8LceVUcb-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-39" value="应聘者拉黑删除锁定转移等校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="415" y="2330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-41" value="给出提示&lt;br&gt;提醒时间要早于预约开始时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2230" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-42" target="NbpE_9AWWfiQ8LceVUcb-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-42" value="应聘者职位匹配校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="2330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-43" target="NbpE_9AWWfiQ8LceVUcb-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-43" value="应聘者已存在于当前场次校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="2330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-44" target="NbpE_9AWWfiQ8LceVUcb-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-44" value="用户级记忆&lt;br&gt;添加到当前场次/自动确认等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="2480" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-45" target="NbpE_9AWWfiQ8LceVUcb-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-45" value="整合保存相应&lt;br&gt;对象数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2480" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-46" target="NbpE_9AWWfiQ8LceVUcb-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-46" value="保存Redis数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="2480" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-47" value="安排完成给出提示&lt;br&gt;各个校验的提示" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2480" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-54" target="NbpE_9AWWfiQ8LceVUcb-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-54" value="过滤掉校验&lt;br&gt;不通过数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="2480" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-60" target="NbpE_9AWWfiQ8LceVUcb-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-60" value="导出面试安排" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2650" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-61" target="NbpE_9AWWfiQ8LceVUcb-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-61" value="评价表名称处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="2645" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-62" value="评价表名称特殊处理逻辑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="2645" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-83" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-63" target="NbpE_9AWWfiQ8LceVUcb-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-63" value="导出字段包含&lt;br&gt;面试评价表名" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2630" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-66" target="NbpE_9AWWfiQ8LceVUcb-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-66" value="根据安排Ids取评价表名称" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="2830" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-74" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-68" target="NbpE_9AWWfiQ8LceVUcb-70">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="2850" />
+              <mxPoint x="370" y="2850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-68" target="NbpE_9AWWfiQ8LceVUcb-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="2955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-80" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NbpE_9AWWfiQ8LceVUcb-79">
+          <mxGeometry x="-0.2209" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-68" value="安排是否为单评价表模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-69" value="直接取值面试安排上的评价表字段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="2930" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-70" target="NbpE_9AWWfiQ8LceVUcb-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-76" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NbpE_9AWWfiQ8LceVUcb-75">
+          <mxGeometry x="0.3091" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-70" target="NbpE_9AWWfiQ8LceVUcb-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-78" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NbpE_9AWWfiQ8LceVUcb-77">
+          <mxGeometry x="-0.1848" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-70" value="面试官是否&lt;br&gt;为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-72" value="取值面试官答复对象的评价表字段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="2825" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-84" target="NbpE_9AWWfiQ8LceVUcb-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-84" value="根据面试Id获取面试评价" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3060" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-85" target="NbpE_9AWWfiQ8LceVUcb-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-85" value="根据面试Id取值面试日程Id、面试安排Id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="3055" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-86" target="NbpE_9AWWfiQ8LceVUcb-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-86" value="取值面试安排数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="3055" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-94" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-87" target="NbpE_9AWWfiQ8LceVUcb-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-95" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-87" target="NbpE_9AWWfiQ8LceVUcb-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-87" value="单评价表模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="3040" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-88" target="NbpE_9AWWfiQ8LceVUcb-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-88" value="取值安排上的评价表Id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="3055" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NbpE_9AWWfiQ8LceVUcb-89" target="NbpE_9AWWfiQ8LceVUcb-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-89" value="根据日程Id获取面试官答复评价表Ids" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="3170" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NbpE_9AWWfiQ8LceVUcb-90" value="获取评价表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="3170" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
