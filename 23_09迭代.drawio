@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T07:13:29.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="bSIkdFzDKJOMmeOmdpk7" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-25T12:39:08.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="G9qfBPoSxDAFYDGWPOtN" version="21.6.5" type="github">
   <diagram name="第 1 页" id="53Ijm8DaZ4i_sg3sCP7W">
     <mxGraphModel dx="1050" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="300000" pageHeight="30000" background="none" math="0" shadow="0">
       <root>
@@ -23,6 +23,43 @@
         </mxCell>
         <mxCell id="wEdYIYvz8tDSYPpoFd0v-9" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;规则记录&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;记录Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;规则Id&lt;br&gt;……&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="250" y="310" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv7gD43Gz18Dn4MxhVw8-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="Pv7gD43Gz18Dn4MxhVw8-1" target="Pv7gD43Gz18Dn4MxhVw8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv7gD43Gz18Dn4MxhVw8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pv7gD43Gz18Dn4MxhVw8-1" target="Pv7gD43Gz18Dn4MxhVw8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv7gD43Gz18Dn4MxhVw8-1" value="日程订阅逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="480" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv7gD43Gz18Dn4MxhVw8-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="Pv7gD43Gz18Dn4MxhVw8-2" target="Pv7gD43Gz18Dn4MxhVw8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv7gD43Gz18Dn4MxhVw8-2" value="获取全部租户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="560" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv7gD43Gz18Dn4MxhVw8-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Pv7gD43Gz18Dn4MxhVw8-3" target="Pv7gD43Gz18Dn4MxhVw8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv7gD43Gz18Dn4MxhVw8-3" value="获取租户下的订阅日程数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="640" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv7gD43Gz18Dn4MxhVw8-4" value="同步至&lt;br&gt;日程数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="720" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv7gD43Gz18Dn4MxhVw8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Pv7gD43Gz18Dn4MxhVw8-5" target="Pv7gD43Gz18Dn4MxhVw8-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="503" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Pv7gD43Gz18Dn4MxhVw8-5" value="获取使用了日程订阅的租户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="460" y="560" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Pv7gD43Gz18Dn4MxhVw8-11" value="customSetting" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="560" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
