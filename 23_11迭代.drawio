@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-27T09:51:56.479Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="TSXvT6O0JwV6ZeH_Izie" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-27T09:57:44.820Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="RB0DRxX3tY26WXXBa_rc" version="21.8.2" type="github">
   <diagram name="第 1 页" id="uQnc2c0iIG_h71mx5ojg">
     <mxGraphModel dx="1050" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="300000" pageHeight="30000" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
         <mxCell id="vS3xbVpzAr4w5fPz4_WH-14" value="定时计算" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="410" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="vS3xbVpzAr4w5fPz4_WH-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vS3xbVpzAr4w5fPz4_WH-15" target="vS3xbVpzAr4w5fPz4_WH-16">
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vS3xbVpzAr4w5fPz4_WH-15" target="vS3xbVpzAr4w5fPz4_WH-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vS3xbVpzAr4w5fPz4_WH-15" value="设置定时计算时间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -90,10 +90,83 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vS3xbVpzAr4w5fPz4_WH-16" value="定时任务扫描" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="502.5" y="595" width="105" height="40" as="geometry" />
+          <mxGeometry x="502.5" y="660" width="105" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vS3xbVpzAr4w5fPz4_WH-17" value="到点触发计算接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="502.5" y="690" width="105" height="40" as="geometry" />
+          <mxGeometry x="502.5" y="745" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vS3xbVpzAr4w5fPz4_WH-21" target="vS3xbVpzAr4w5fPz4_WH-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-21" value="添加定时任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="502.5" y="580" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vS3xbVpzAr4w5fPz4_WH-24" target="vS3xbVpzAr4w5fPz4_WH-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-24" value="发布报告" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="410" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vS3xbVpzAr4w5fPz4_WH-25" target="vS3xbVpzAr4w5fPz4_WH-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-25" value="调用计算接口&lt;br&gt;获取发布人员" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="752.5" y="590" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vS3xbVpzAr4w5fPz4_WH-26" target="vS3xbVpzAr4w5fPz4_WH-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-33" value="立即发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vS3xbVpzAr4w5fPz4_WH-31">
+          <mxGeometry x="-0.584" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vS3xbVpzAr4w5fPz4_WH-26" target="vS3xbVpzAr4w5fPz4_WH-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-35" value="定时发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vS3xbVpzAr4w5fPz4_WH-34">
+          <mxGeometry x="-0.1832" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-26" value="立即发布" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="490" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-27" value="根据通知方式&lt;br&gt;发通知/邮件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="752.5" y="680" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vS3xbVpzAr4w5fPz4_WH-28" target="vS3xbVpzAr4w5fPz4_WH-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-28" value="添加定时任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="495" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vS3xbVpzAr4w5fPz4_WH-29" target="vS3xbVpzAr4w5fPz4_WH-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-29" value="到点触发" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="590" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vS3xbVpzAr4w5fPz4_WH-38" target="vS3xbVpzAr4w5fPz4_WH-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-38" value="查看报告" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="850" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vS3xbVpzAr4w5fPz4_WH-39" target="vS3xbVpzAr4w5fPz4_WH-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-39" value="通知标识&lt;br&gt;试发or正式发布" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="930" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vS3xbVpzAr4w5fPz4_WH-41" target="vS3xbVpzAr4w5fPz4_WH-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-41" value="获取计算结果&lt;br&gt;字典、页面list" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="1020" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vS3xbVpzAr4w5fPz4_WH-42" value="组装数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="257.5" y="1100" width="105" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
