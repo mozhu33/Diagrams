@@ -4,11 +4,32 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7VeYFvIH7S3LwfYsSpzn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7VeYFvIH7S3LwfYsSpzn-1" target="7VeYFvIH7S3LwfYsSpzn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7VeYFvIH7S3LwfYsSpzn-1" value="&lt;div style=&quot;box-sizing:border-box;width:100%;background:#e4e4e4;padding:2px;&quot;&gt;WorkManagementSetting&lt;/div&gt;&lt;table style=&quot;width:100%;font-size:1em;&quot; cellpadding=&quot;2&quot; cellspacing=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;PK&lt;/td&gt;&lt;td&gt;Id&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;br&gt;&lt;/td&gt;&lt;td&gt;&lt;font color=&quot;#ff0000&quot;&gt;TenantId&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;UserId&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;SetType&lt;br&gt;ObjSettingType&lt;br&gt;ObjType&lt;br&gt;PeriodType&lt;br&gt;SetValue&lt;br&gt;SetTime&lt;/font&gt;&lt;br&gt;RemindType&lt;br&gt;RemindContent&lt;br&gt;RemindRange&lt;br&gt;RangeType&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;IsEnable&lt;/font&gt;&lt;br&gt;CreateTime&lt;br&gt;ModifyTime&lt;br&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="70" y="60" width="170" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="7VeYFvIH7S3LwfYsSpzn-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SetType=2 为企业设置&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;ObjType=8 为日报&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;ObjSettingType为各设置项枚举&lt;/div&gt;&lt;div style=&quot;&quot;&gt;PeriodType 为时间维度&lt;/div&gt;&lt;div&gt;SetValue 为时间周期&lt;/div&gt;&lt;div&gt;SetTime 为准确时间点&lt;/div&gt;&lt;div&gt;IsEnable&amp;nbsp; 为是否开启&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="70" width="190" height="140" as="geometry" />
+        <mxCell id="7VeYFvIH7S3LwfYsSpzn-3" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;SetType=2 为企业设置&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;ObjType=8 为日报&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;ObjSettingType为各设置项枚举&lt;/div&gt;&lt;div style=&quot;&quot;&gt;PeriodType 为时间维度&lt;/div&gt;&lt;div&gt;SetValue 为时间周期&lt;/div&gt;&lt;div&gt;SetTime 为准确时间点&lt;/div&gt;&lt;div&gt;IsEnable&amp;nbsp; 为是否开启&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="125" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7VeYFvIH7S3LwfYsSpzn-5" value="&lt;b&gt;ObjSettingType&amp;nbsp; 日报各设置项&lt;/b&gt;&lt;div&gt;24：日报最晚提交时间&lt;/div&gt;&lt;div&gt;21：日报定时提醒&lt;/div&gt;&lt;div&gt;25：周报最晚提交时间&lt;/div&gt;&lt;div&gt;22：周报定时提醒&lt;/div&gt;&lt;div&gt;26：月报最晚提交时间&lt;/div&gt;&lt;div&gt;23：月报定时提醒&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="20" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7VeYFvIH7S3LwfYsSpzn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.437;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7VeYFvIH7S3LwfYsSpzn-3" target="7VeYFvIH7S3LwfYsSpzn-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VeYFvIH7S3LwfYsSpzn-7" value="&lt;b&gt;PeriodType 时间维度&lt;/b&gt;&lt;div&gt;日报&lt;/div&gt;&lt;div&gt;1：当天&lt;/div&gt;&lt;div&gt;2：第二天&lt;/div&gt;&lt;div&gt;7：几天后&lt;/div&gt;&lt;div&gt;4：每一天&lt;/div&gt;&lt;div&gt;周报&lt;/div&gt;&lt;div&gt;8：本周&lt;/div&gt;&lt;div&gt;9：下一周&lt;/div&gt;&lt;div&gt;11：每一周&lt;/div&gt;&lt;div&gt;月报&lt;/div&gt;&lt;div&gt;14：本月&lt;/div&gt;&lt;div&gt;15：下一月&lt;/div&gt;&lt;div&gt;17：每月&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="190" width="170" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="7VeYFvIH7S3LwfYsSpzn-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.014;entryY=0.465;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7VeYFvIH7S3LwfYsSpzn-3" target="7VeYFvIH7S3LwfYsSpzn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7VeYFvIH7S3LwfYsSpzn-9" value="&lt;b&gt;SetValue&amp;nbsp; 周期值&amp;nbsp; &amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;特殊逻辑&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;PeriodType=1 or 2 时，SetValue=1&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff0000&quot;&gt;PeriodType=7时，SetValue= n天以后，举例：第三天，即为 两天 以后，n=2，SetValue=2&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="430" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="7VeYFvIH7S3LwfYsSpzn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.56;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7VeYFvIH7S3LwfYsSpzn-3" target="7VeYFvIH7S3LwfYsSpzn-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
